@@ -14,9 +14,6 @@ rm -rf $BUILD_DIR/app/ui/dist
 rm -rf $BUILD_DIR/project/target/node-modules
 rm -rf $BUILD_DIR/modules/*/target
 rm -rf $BUILD_DIR/logs
-
-echo "*---------------------------------------------------------*"
-du -h -d 10 $BUILD_DIR
-echo "*---------------------------------------------------------*"
+rm -rf $BUILD_DIR/target/web
 
 echo "Cleanup done..."
