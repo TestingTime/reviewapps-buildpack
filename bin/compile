@@ -8,7 +8,11 @@ echo "Cleaning up..."
 
 rm -rf $BUILD_DIR/node_modules
 rm -rf $BUILD_DIR/app/ui/node_modules
+rm -rf $BUILD_DIR/app/ui/.tmp
+rm -rf $BUILD_DIR/app/ui/coverage
+rm -rf $BUILD_DIR/app/ui/dist
 rm -rf $BUILD_DIR/project/target/node-modules
 rm -rf $BUILD_DIR/modules/*/target
+rm -rf $BUILD_DIR/logs
 
 echo "Cleanup done..."
