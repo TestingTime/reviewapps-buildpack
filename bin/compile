@@ -16,7 +16,7 @@ rm -rf $BUILD_DIR/modules/*/target
 rm -rf $BUILD_DIR/logs
 
 echo "*---------------------------------------------------------*"
-ls -R
+ls -R $BUILD_DIR
 echo "*---------------------------------------------------------*"
 
 echo "Cleanup done..."
