@@ -15,4 +15,8 @@ rm -rf $BUILD_DIR/project/target/node-modules
 rm -rf $BUILD_DIR/modules/*/target
 rm -rf $BUILD_DIR/logs
 
+echo "*---------------------------------------------------------*"
+ls -R
+echo "*---------------------------------------------------------*"
+
 echo "Cleanup done..."
